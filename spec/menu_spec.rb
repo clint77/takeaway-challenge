@@ -2,8 +2,9 @@ require 'Menu'
 
 describe Menu do
   
-  it 'should display food selection' do
-
+  it 'should display food selection by default' do
+    menu = Menu.new
+    expect(menu).not_to be_empty
   end
 
   it 'should display food prices' do
