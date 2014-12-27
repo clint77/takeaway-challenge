@@ -6,7 +6,7 @@ class Dish
   end
 
   def has_name?
-    @name = menu_items.key
+    @name = menu_items
   end
 
   def has_price?
