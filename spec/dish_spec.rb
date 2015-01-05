@@ -1,30 +1,10 @@
 require 'Dish'
 
 describe Dish do
-  
-  # it 'should have a name' do
 
-  #   dish = Dish.new
-  #   allow(dish).to receive @quantity = 1
-  #   expect(dish).to have_name
-  # end
-
-  it 'should have a price' do
+  it 'should have food list' do
     dish = Dish.new
-    expect(dish).to have_price
+    expect(dish.list).to include "sisig"
   end
-
-  it 'should have quantity' do
-    dish = Dish.new
-    expect(dish.quantity).to eq 1
-  end
-
-  # it ''
-
-
-
-
-
-
 
 end

@@ -1,7 +1,7 @@
 class Sisig
 
   def initialize
-    @price
+    price
   end
 
   def price
@@ -9,5 +9,4 @@ class Sisig
   end
 
 end
-
 

@@ -1,11 +1,13 @@
 class Bulalo
 
   def initialize
-    @price
+    price
   end
 
   def price
     @price = 10
   end
+
+  
 
 end

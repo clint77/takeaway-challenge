@@ -7,7 +7,4 @@ describe Sisig do
     expect(sisig.price).to eq 7
   end
 
-
-
-
 end

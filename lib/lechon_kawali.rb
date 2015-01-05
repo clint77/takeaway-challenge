@@ -1,7 +1,7 @@
 class Lechon_kawali
   
   def initialize
-    @price
+    price
   end
 
   def price
